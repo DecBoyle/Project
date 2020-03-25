@@ -278,7 +278,6 @@ def handle_phrase(query):
 	from operator import itemgetter
 	body_docs=[]
 	bod_score=[]
-	#print body_docs,'fuck'
 	for keys, item in new_d.iteritems():
 		#print item
 		item= map(int, item)
@@ -461,4 +460,4 @@ elif len(query) > 1 and 'AND' in query or 'OR'  in query :
 #x=posIndex.get('the', {}).get('doc_2') 
 #print x
 #if int(x[0])>7:
-	#print 'fuck you'
+
